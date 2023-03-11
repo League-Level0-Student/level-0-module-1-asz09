@@ -1,2 +1,10 @@
 size(1000,1000);
-ellipse(100,600, 200,200);
+fill(3,232,255,70);
+text("I am from california", 490,300);
+ellipse(600,600, 400,400);
+fill(0,250, 31, 70);
+text("I am 14", 490,300);
+ellipse(300,600,400,400);
+fill(255,234,0,70);
+text("I have been a League student for the past three months.", 470,300);
+ellipse(460,300,400,400);
