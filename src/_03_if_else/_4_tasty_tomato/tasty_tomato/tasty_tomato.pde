@@ -1,5 +1,5 @@
 void setup() {
-    size(500, 500);
+    size(1000, 1000);
 }
 void draw() {
     background(200, 200, 200);
@@ -9,6 +9,6 @@ void draw() {
     ellipse(212, 200, 150, 150);
     fill(#0C8928);
     rect(176, 103, 12, 32);
-    if mousePressed{
-    m
+    
+    
 }
