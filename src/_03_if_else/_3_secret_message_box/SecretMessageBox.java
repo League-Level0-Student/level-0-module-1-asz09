@@ -33,9 +33,18 @@ String guess = JOptionPane.showInputDialog("Try and guess this passcode to conti
 if (guess.equals(passcode)) {
 	JOptionPane.showMessageDialog(null,"Nick graham is more sus than your mom.");
 } else {
-	JOptionPane.showMessageDialog(null,"Intruder Alert!\n Authorities are on the way. Please stay where you are/n."
-			+ " Please do not panic, you are only being arrested/n. Once again, do not panic. For more details, call Nick Graham,"
-			+ " at 1800-LKE-CODE (949-5033)/n");
+	JOptionPane.showMessageDialog(null,
+			"Intruder Alert!"
+			
+			+ " Authorities are on the way. \n"
+			+ "Please stay where you are. "
+			
+			
+			+ " Please do not panic."
+			+ " Once again, do not panic. For more details, call Nick Graham, \n"
+			+ " at 1800-LKE-CODE (949-5033). If you have any questions or want to learn more,\n "
+			+ " Call the League of Amazing Programmers at (858) 284-0481. This message is a copyright\n of the United States Government. \n Please do not recreate this message. Breaching the box\n is considered a national security threat, and the President is ready to take action.\n ");
+	
 }
 
 
