@@ -18,32 +18,33 @@ public class SecretMessageBox {
 
 	// 0. Make a main method and put steps 1-5 inside it
 	public static void main(String[] args) {
-		String("passcode");
+		 
 	
 	
 	// 1. Set a password in a String variable
+		String passcode = "leaguepassKey";
 	
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
-String JOptionPane.showMessageDialog("Give me a secret message.");
+String secmessage = JOptionPane.showInputDialog("give me a secret message, right now.");
 	// 3. Now use a pop-up to tell the NEXT user that they can only see the secret message 
 	//    if they can guess the passcode
-
+String guess = JOptionPane.showInputDialog("Try and guess this passcode to continue!");
 	// 4. If their guess matches the password, show them the secret message
-if Object input;
-input.equals ("passcode");
+if (guess.equals(passcode)) {
+	JOptionPane.showMessageDialog(null,"Nick graham is more sus than your mom.");
+} else {
+	JOptionPane.showMessageDialog(null,"Intruder Alert!\n Authorities are on the way. Please stay where you are/n."
+			+ " Please do not panic, you are only being arrested/n. Once again, do not panic. For more details, call Nick Graham,"
+			+ " at 1800-LKE-CODE (949-5033)/n");
+}
 
-	// 5. If the password does not match, pop-up "INTRUDER!!"
-if input.equals(password)
-String.JOptionPane.showMessageDialog"INTRUDER!!!!!!!!"
-	}
 
-	private static void showMessageDialog(java.lang.String string) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	private static void String(String string) {
-		// TODO Auto-generated method stub
-		
-	}
+	// 5. If the password does not match, pop-up "INTRUDER!!" input.equals("passcode");
+
+
+
+
+
+}
 }
