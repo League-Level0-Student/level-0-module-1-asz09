@@ -31,10 +31,10 @@ String secmessage = JOptionPane.showInputDialog("give me a secret message, right
 String guess = JOptionPane.showInputDialog("Try and guess this passcode to continue!");
 	// 4. If their guess matches the password, show them the secret message
 if (guess.equals(passcode)) {
-	JOptionPane.showMessageDialog(null,"Nick graham is more sus than your mom.");
+	JOptionPane.showMessageDialog(null,secmessage);
 } else {
 	JOptionPane.showMessageDialog(null,
-			"Intruder Alert!"
+			"Intruder Alert!\n"
 			
 			+ " Authorities are on the way. \n"
 			+ "Please stay where you are. "
@@ -43,7 +43,8 @@ if (guess.equals(passcode)) {
 			+ " Please do not panic."
 			+ " Once again, do not panic. For more details, call Nick Graham, \n"
 			+ " at 1800-LKE-CODE (949-5033). If you have any questions or want to learn more,\n "
-			+ " Call the League of Amazing Programmers at (858) 284-0481. This message is a copyright\n of the United States Government. \n Please do not recreate this message. Breaching the box\n is considered a national security threat, and the President is ready to take action.\n ");
+			+ " Call the League of Amazing Programmers at (858) 284-0481. This message is a copyright\n of the United States Government. \n Please do not recreate this message. Breaching the box\n is considered a national security threat, and the President is ready to take action.\n"
+			+ "If this is an emergency, call the emergency services immediately. If you think this message \n was sent in error, or if you are a government official, \n Please report to the president immediately. ");
 	
 }
 
